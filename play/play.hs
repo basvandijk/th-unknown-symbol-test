@@ -4,8 +4,6 @@ module Main ( main ) where
 
 import OpenCV
 
-data MyRecord = MyRecord {_field1 :: Bool}
-
 -- Enabling the following splice results in the following error when running `cabal build`:
 --
 --   ghc: /nix/store/1wyif1adq0pb9h08jqr0v5lrykfhdhah-opencv-3.0.0/lib/libopencv_hal.a: unknown symbol `_ZGVZN2cv9v_invsqrtERKNS_11v_float32x4EE4_0_5'
