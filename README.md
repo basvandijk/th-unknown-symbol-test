@@ -1,4 +1,4 @@
-A test case for [GHC ticket #9010](https://ghc.haskell.org/trac/ghc/ticket/9010).
+A test case for [GHC ticket #9010](https://ghc.haskell.org/trac/ghc/ticket/9010#comment:6).
 
 Run `nix-build` to trigger the bug.
 
