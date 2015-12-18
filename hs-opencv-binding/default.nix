@@ -1,9 +1,9 @@
-{ mkDerivation, stdenv, opencv, base }:
+{ mkDerivation, stdenv, opencv3, base }:
 mkDerivation {
   pname = "hs-opencv-binding";
   version = "0.0.0";
   src = ./.;
   libraryHaskellDepends = [ base];
-  libraryPkgconfigDepends = [ opencv ];
+  libraryPkgconfigDepends = [ opencv3 ];
   license = stdenv.lib.licenses.bsd3;
 }
