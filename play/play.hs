@@ -3,7 +3,6 @@
 module Main ( main ) where
 
 import OpenCV
-import Control.Lens
 
 data MyRecord = MyRecord {_field1 :: Bool}
 
@@ -16,7 +15,7 @@ data MyRecord = MyRecord {_field1 :: Bool}
 --
 --   guard variable for cv::v_invsqrt(cv::v_float32x4 const&)::_0_5
 --
-makeLenses ''MyRecord
+return []
 
 main :: IO ()
 main = putStrLn "Hello World!"
